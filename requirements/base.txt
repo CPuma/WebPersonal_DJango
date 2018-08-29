@@ -1,0 +1,7 @@
+# Python 3.7.0
+
+# Framework Django 2.1
+pip install django==2.1
+
+# PAquete Manipular imagenes Pillow
+pip install Pillow

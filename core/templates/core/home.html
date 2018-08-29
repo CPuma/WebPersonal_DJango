@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+{% block title %} Portada {% endblock %}
+
+
+<!-- Ponerlo en UNA SOLA LINEA  si no,  lo como salto de linea y tirara error -->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+<!-- Primero cargamos el static en el templade en  memoria con LOAD-->
+
+
+{% block headers %}
+    <h1>Cesar Puma</h1>
+    <span class="subheading">Programador ROCK STACK</span>
+{% endblock %}
+
+{% block content %}
+   
+{% endblock %} 
